@@ -13,6 +13,7 @@ images.push("images/image_9.jpg");
 images.push("images/image_10.jpg");
 images.push("images/image_11.jpg");
 images.push("images/image_12.jpg");
+images.push("images/image_13.jpg");
 //just add more images to creeate a larger pool
 
 images.sort(function ()
