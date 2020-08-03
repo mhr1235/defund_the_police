@@ -4,7 +4,7 @@
 
 To Protect and Server
 
-Artists: Mark Ramos and Jonah Brucker-Cohen
+Artists: [Mark Ramos](https://www.markhramos.net) and [Jonah Brucker-Cohen](https://www.coin-operated.com)
 
 Description: “To Protect and Server” is a reconfiguration of Google’s popular “ReCaptcha” software that helps protect websites from spam and abuse.  A “CAPTCHA” is a turing test to tell humans and bots apart. “It is easy for humans to solve, but hard for “bots” and other malicious software to figure out. By adding reCAPTCHA to a site, you can block automated software while helping your welcome users to enter with ease.” Google’s system uses images that a human must identify and decode in order to pass a digital barrier of entry.
 
