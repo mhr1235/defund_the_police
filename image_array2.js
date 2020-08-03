@@ -92,8 +92,11 @@ if(click_counter == random_test){
 window.location.href = 'kkkops_p2.html';
 
 
-}else{
+}
+if(click_counter != random_test && click_counter > 1){
+	window.location.href = 'kkkops_p3.html';
+}
+if(click_counter == 0){
 location.reload();
-window.location.href = 'kkkops_p3.html';
 }
 };
