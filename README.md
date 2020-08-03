@@ -2,7 +2,7 @@
   <img src="http://www.coin-operated.com/wp-content/uploads/2020/07/protectandserver.jpg" width="550" title="hover text">
 </p>
 
-To Protect and Server
+__To Protect and Server__
 
 Artists: [Mark Ramos](https://www.markhramos.net) and [Jonah Brucker-Cohen](https://www.coin-operated.com)
 
