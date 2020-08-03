@@ -1,4 +1,6 @@
-![project image](http://www.coin-operated.com/wp-content/uploads/2020/07/protectandserver.jpg)
+<p align="center">
+  <img src="http://www.coin-operated.com/wp-content/uploads/2020/07/protectandserver.jpg" width="350" title="hover text">
+</p>
 
 To Protect and Server
 
