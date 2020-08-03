@@ -51,29 +51,42 @@ body {
 
 
 <video playsinline muted loop id="myVideo">
-  <source src="small_vid.mp4" type="video/mp4">
+  <source src="videoplayback.mp4" type="video/mp4">
   Your browser does not support HTML5 video.
 </video>
 
 
 
-<div class="content">
+<!-- <div class="content"> -->
 
 <!--   <iframe src="https://www.google.com" title="W3Schools Free Online Web Tutorials">
 </iframe> -->
 <!--   <h1>Heading</h1>
   <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore latine molestiae, ad mutat oblique delicatissimi pro.</p>
   <button id="myBtn" onclick="myFunction()">Pause</button> -->
-</div> 
+<!-- </div>  -->
 
 <script>
-var video = document.getElementById("myVideo");
-var btn = document.getElementById("myBtn");
+var vid = document.getElementById("myVideo");
 var starttime = Math.floor(Math.random() * 1200) + 1;
-console.log(starttime);
 
-video.currentTime=starttime;
-video.play();
+
+vid.style.opacity="0";
+vid.onloadeddata = function() {
+  //alert("Browser has loaded the current frame");
+  vid.currentTime = starttime;
+  console.log(starttime);
+  //vid.load();
+}
+//vid.pause();
+vid.play();
+setTimeout(makeVisible,500);
+
+
+
+function makeVisible() {
+vid.style.opacity="1";
+}
 
 /*function myFunction() {
   if (video.paused) {
@@ -84,6 +97,8 @@ video.play();
     btn.innerHTML = "Play";
   }
 }*/
+
+
 
 setTimeout(function () {
    window.location.href = "index.html"; //will redirect to your blog page (an ex: blog.html)
